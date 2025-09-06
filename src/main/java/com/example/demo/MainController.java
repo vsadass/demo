@@ -12,7 +12,7 @@ public class MainController {
     @GetMapping("/hello")
     public ResponseEntity<String> hello()
     {
-        return  ResponseEntity.ok("HELLOW WORLD RESPONSE FROM CUSTOMER SERVICE");
+        return  ResponseEntity.ok("HELLOW WORLD RESPONSE FROM CUSTOMER SERVICE1");
     }
 
 }
