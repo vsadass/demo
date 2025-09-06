@@ -22,7 +22,7 @@ class DemoApplicationTests {
 	void contextLoads() throws  Exception {
 		mockMvc.perform(get("/api/v1/hello"))
 				.andExpect(status().isOk())
-				.andExpect(content().string("HELLOW WORLD RESPONSE FROM CUSTOMER SERVICE"));
+				.andExpect(content().string("HELLOW WORLD RESPONSE FROM CUSTOMER SERVICE1"));
 
 	}
 
